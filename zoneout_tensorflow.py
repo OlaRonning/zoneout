@@ -57,5 +57,5 @@ class ZoneoutWrapper(tf.nn.rnn_cell.RNNCell):
 
 
 # Wrap your cells like this
-cell = ZoneoutWrapper(tf.nn.rnn_cell.LSTMCell(hidden_units),
-                                       zoneout_prob=(z_prob_cells, z_prob_states))
+# cell = ZoneoutWrapper(tf.nn.rnn_cell.LSTMCell(hidden_units),
+#                                       zoneout_prob=(z_prob_cells, z_prob_states))
